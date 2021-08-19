@@ -1,1 +1,6 @@
-
+- out : contains the output images of the simulation
+- model : contains the whole model
+- algos : contains the learning algorithms (Gaussian noise and epsilon)
+- cellEnvironment.py implements Environment interface of DeeR framework
+- runAgent.py allows to use a dumped network to get a treatment plan (saved as a fig in out folder)
+- trainAgent.py allows to train an agent (DQN or DDPG to specify in command line)
